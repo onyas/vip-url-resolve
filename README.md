@@ -1,6 +1,6 @@
-# VIP Viedo Resolve
+# VIP Video Resolve
 
-Resolve vip vedios url to a m3u8 link and play it
+Resolve vip videos url to a m3u8 link and play it
 
 
 ## Quick Start
