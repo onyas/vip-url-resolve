@@ -19,7 +19,7 @@ Resolve vip videos url to a m3u8 link and play it
 	python3 restAPI.py
 ```
 
-then open [http://localhost:5000/](http://localhost:5000/) you will find the blew example
+then open [http://localhost:6789/](http://localhost:6789/) you will find the blew example
 
 ![avatar](assert/demo.png)
 
