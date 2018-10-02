@@ -10,7 +10,6 @@ Resolve vip videos url to a m3u8 link and play it
 ```
 	python3
 	pip3 install flask
-	express
 ```
 
 ### Example
@@ -20,11 +19,6 @@ Resolve vip videos url to a m3u8 link and play it
 	python3 restAPI.py
 ```
 
-```
-	cd frontend
-	npm install -d express
-	node app.js
-```
 then open [http://localhost:5000/](http://localhost:5000/) you will find the blew example
 
 ![avatar](assert/demo.png)

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask,request,jsonify,make_response
+from flask import Flask,request,jsonify,make_response,render_template
 from resolveUrl import getTargetUrl
 from resolveQuery import query
 
@@ -32,6 +32,10 @@ def parseUrl():
 		return jsonify({'message':'success','data':targetUrl})
 	else:
 		return jsonify({'message':'not support','data':''})
+
+@app.route('/', methods=['GET'])
+def index():
+	return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(
