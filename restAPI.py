@@ -19,7 +19,7 @@ def search():
 	
 	res.headers['Access-Control-Allow-Origin'] = '*'
 	res.headers['Access-Control-Allow-Methods'] = 'GET'
-	res.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type' 
+	res.headers['Access-Control-Allow-Headers'] = 'x-requested-with,content-type,Origin' 
 	return res;
 
 @app.route('/parseUrl', methods=['GET'])
