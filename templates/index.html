@@ -29,7 +29,7 @@
       var qText = document.getElementById("queryText").value
       console.log(qText)
 
-      http.open('GET',"http://localhost:6789/search?q="+qText,true)
+      http.open('GET',"https://vip-url-resolve.herokuapp.com/search?q="+qText,true)
       http.send()
       http.onreadystatechange=function(){
         if(http.readyState==4 && http.status==200){
